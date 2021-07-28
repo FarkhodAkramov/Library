@@ -6,8 +6,8 @@ import android.widget.Toast
 import com.google.android.material.snackbar.Snackbar
 
 
-class Main {
-    fun snackBar(view: View,text:String) {
+class SnackbarByFarkhod {
+    fun s(view: View,text:String) {
         Snackbar.make(view, text, Snackbar.LENGTH_LONG).apply {
             setAction("Undo") {
 
